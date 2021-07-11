@@ -1,0 +1,36 @@
+Package: snorain-imager
+Version: 1.2
+Architecture: armhf
+Maintainer: Seth Olivarez <olivarezseth23@gmail.com>
+Installed-Size: 1034
+Depends: libarchive13 (>= 3.0.4), libatomic1 (>= 4.8), libc6 (>= 2.4), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.5), libqt5core5a (>= 5.8.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), qml-module-qtquick2, qml-module-qtquick-controls2, qml-module-qtquick-layouts, qml-module-qtquick-templates2, qml-module-qtquick-window2, qml-module-qtgraphicaleffects, dosfstools, fdisk
+Recommends: udisks2
+Filename: ./armhf/snorain-imager_1.2_armhf.deb
+Size: 394072
+MD5sum: 537bbca35433fae060496cf564e77315
+SHA1: 58ff977e2f50973eb324b46ad317e107b2eeca59
+SHA256: d4baef5e49f4ea054a6fbca9a69aeaa216d520c7e970cd0882589fb977fd104d
+Section: admin
+Priority: optional
+Homepage: https://www.raspberrypi.org/
+Description: Snorain-Imager
+ A fork of the raspberry pi imager made for TwisterOS by oxmc.
+
+Package: snorain-imager-dbgsym
+Source: snorain-imager
+Version: 1.2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Seth Olivarez <olivarezseth23@gmail.com>
+Installed-Size: 2861
+Depends: snorain-imager (= 1.2)
+Filename: ./armhf/snorain-imager-dbgsym_1.2_armhf.deb
+Size: 2839124
+MD5sum: 346cca646a6d4c2664cfec257d8e091b
+SHA1: 3a209ce6b7b22bffeccd2ee58a5c535ffa103d41
+SHA256: b7bf9768e09b9739cb12f66e39699215329963b32f417f7def1254cd6492c1cc
+Section: debug
+Priority: optional
+Description: debug symbols for snorain-imager
+Build-Ids: d4e994b4220e79bbb67bdce530b02f685fc6829b
+
