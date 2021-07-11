@@ -1,1 +1,1 @@
-deb [trusted=yes] https://snorain.github.io/snorain-apt/debian/ ./
+deb [trusted=yes] https://snorain.github.io/snorain-apt/apt/debian/ ./
